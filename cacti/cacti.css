@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+/*header*/
+.flex-container {
+  display: flex;
+}
+
+.wrapper {
+  background-color: #a6e3a7;
+  margin: 0px;
+  padding: 480px;
+  float: left;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/cactiSix.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 2px;
+  width: 100%;
+}
+
+.wrapper h1 {
+  color: white;
+  background-color: #c5a6e3 ;
+  font-size: 100px;
+  text-align: center;
+  transform: translate(50, 50);
+  margin: 2px;
+  width: 300px;
+  height: 140px;
+  padding-bottom: 15px;
+  text-shadow: 10px ;
+  box-shadow: 30px 30px ;
+  transition: 0.3s;
+}
+
+.wrapper h1:hover {
+  transform: scale(1.1);
+}
+/*header*/
+
+/*navbar*/
+.nav {
+  overflow: hidden;
+  background-color: #c5a6e3;
+  width: 100%;
+}
+
+.menu ul {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  list-style: none;
+  float: none;
+  padding: 10px;
+}
+
+.menu ul li {
+  display: inline;
+  margin: 0px;
+  padding: 78px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 19px;
+  transition: 0.4s;
+}
+
+.menu ul li a:hover {
+  font-size: 25px;
+}
+/*navbar*/
+
+/*shop*/
+.shop {
+  background-color: #c5a6e3;
+  margin: 0px;
+  padding: 0px;
+}
+
+.shop h2 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin: 0px;
+  padding: 50px;
+}
+
+.shop-section {
+  display: flex;
+  background-color: #ebdcf9;
+}
+
+.cacti-collection {
+  width: 25%;
+  height: 400px;
+  margin: 140px;
+  padding: 50px;
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/cactiCollectionTwo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+
+.cacti-collection:hover {
+  transform: scale(1.1);
+}
+
+.cacti-collection h3 {
+  color: white;
+  text-shadow: 5px;
+  margin: 8px;
+  padding: 50px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.indoor-plants-collection {
+  width: 25%;
+  height: 400px;
+  margin: 140px;
+  padding: 50px;
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/indoorPlantsCollection.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+
+.indoor-plants-collection:hover {
+    transform: scale(1.1);
+}
+
+.indoor-plants-collection h3 {
+  color: white;
+  text-shadow: 5px;
+  margin: 8px;
+  padding: 50px;
+  text-align: center;
+  font-size: 22px;
+}
+.succulent-collection {
+  width: 25%;
+  height: 400px;
+  margin: 140px;
+  padding: 50px;
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/succulentCollection.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+
+.succulent-collection:hover {
+  transform: scale(1.1);
+}
+
+.succulent-collection h3 {
+  color: white;
+  text-shadow: 5px;
+  margin: 8px;
+  padding: 50px;
+  text-align: center;
+  font-size: 22px;
+}
+/*shop*/
+
+/*about*/
+.about-section-one {
+  display: flex;
+  background-color: #a6e3a7;
+}
+
+.about-content {
+  width: 20%;
+  margin: 140px;
+  padding: 52px;
+  background-color: #c5a6e3;
+  color: white;
+  transition: 0.3s;
+  float: left;
+  box-shadow: 30px 30px;
+}
+
+.about-content h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.about-content:hover {
+  transform: scale(1.1);
+}
+
+.about-image-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/aboutOne.jpeg);
+  background-size: cover;
+  width: 33.5%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.about-image-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/cactiFive.jpeg);
+  background-size: cover;
+  width: 32%;
+  margin: 0px;
+}
+
+.about-section-two {
+  display: flex;
+  background-color: #a6e3a7;
+  height: 980px;
+}
+
+.about-image-three {
+  width: 57.2%;
+  margin: 0px;
+  padding: 262px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(images/aboutThree.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.online-offer-one {
+  margin: 0px;
+  padding: 0px;
+  width: 38.2%;
+}
+
+.online-offer-one h2 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #c5a6e3;
+  box-shadow: 30px 30px;
+  transition: 0.3s;
+  padding: 52px;
+  margin: 140px;
+}
+
+.online-offer-one h2:hover {
+  transform: scale(1.1);
+}
